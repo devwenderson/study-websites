@@ -1,0 +1,56 @@
+/* estilos que se repetem nos componentes das páginas */
+
+.active {
+    border-bottom: 3px solid var(--yellow-500);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+header a h1 {
+    color: var(--yellow-500);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav ol {
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+}
+
+header nav ol li:hover {
+    border-bottom: 3px solid var(--yellow-500);
+}
+
+header nav ol li a {
+    color: var(--gray-900);
+}
+
+.header__buttons {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.header__buttons a {
+    color: var(--gray-900);
+}
+
+.header__buttons a:hover {
+    scale: 1.1;
+    transition: ease-in-out .1s;
+}
+
+.header__buttons a:nth-child(2) {
+    background-color: var(--yellow-500);
+    color: #fff;
+    padding: 0.8em 1.5em;
+    border-radius: 1em;
+}

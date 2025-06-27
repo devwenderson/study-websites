@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu pedido</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header class="container">
+        <a href="index.html">
+            <h1>Food</h1>
+        </a>
+
+        <nav>
+            <ol>
+                <li><a href="index.html">Início</a></li>
+                <li class="active"><a href="menu.html">Menu</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ol>
+        </nav>
+
+        <div class="header__buttons">
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="#">Sing in <i class="fa-solid fa-right-to-bracket"></i> </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2></h2>
+            <form action="enviar.html">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+
+                <label for="email">Email</label>
+                <input type="email" id="email">
+
+                <label for="cep">CEP</label>
+                <input type="text" id="cep" list="ceps">
+                <datalist id="ceps">
+                    <option value="59270000">Bom Jesus/RN</option>
+                    <option value="59260000">Natal/RN</option>
+                    <option value="59250000">Jucurutu/RN</option>
+                </datalist>
+
+                <label for="comidas">Comidas</label>
+                <select name="comidas" id="comidas">
+                    <option value="1">Hambúrguer</option>
+                    <option value="2">Pizza</option>
+                </select>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pedido.css">
+</body>
+</html>
