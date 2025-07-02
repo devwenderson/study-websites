@@ -54,3 +54,7 @@ header nav ol li a {
     padding: 0.8em 1.5em;
     border-radius: 1em;
 }
+
+.footer-content {
+    display: flex;
+}
