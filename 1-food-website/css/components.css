@@ -58,3 +58,7 @@ header nav ol li a {
 .footer-content {
     display: flex;
 }
+
+.footer-content div ul {
+    list-style-type: none;
+}
