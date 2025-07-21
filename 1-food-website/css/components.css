@@ -55,10 +55,91 @@ header nav ol li a {
     border-radius: 1em;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: var(--yellow-200);
+    padding: 3rem;
+}
+
 .footer-content {
     display: flex;
+    justify-content: space-between;
+}
+
+.footer-content h2.logo {
+    color: var(--yellow-500);
+    font-size: 2.5rem;
+}
+
+.footer-content p {
+    max-width: 20em;
+}
+
+.footer__social-buttons {
+    margin-top: 1em;
+}
+
+.footer__social-buttons a {
+    text-decoration: none;
+    background-color: #fff;
+    margin-right: 0.5rem;
+    font-size: 1.2em;
+    padding: .4em .8em;
+    display: inline-block;
+    border-radius: 1em;
+    color: var(--gray-900);
+}
+
+.footer__social-buttons a:hover {
+    scale: 1.1;
+}
+
+.footer-content div h2 {
+    margin-bottom: .5rem;
+}
+
+.footer-content div p {
+    color: var(--gray-200);
 }
 
 .footer-content div ul {
     list-style-type: none;
+}
+
+.footer-content div ul li{
+    margin-bottom: 0.5rem;
+}
+
+.footer-content div ul li a {
+    text-decoration: none;
+    color: var(--gray-200);
+}
+
+.footer-content div form {
+    position: relative;
+    margin-top: 1em;
+}
+
+.footer-content div form input[type="email"] {  
+    padding: 1.5em 2em;
+    padding-right: 4em;
+    border: none;
+    border-radius: 1em;
+    box-shadow: 0 0 6px 2px rgb(187, 187, 187);
+    color: var(--gray-900);
+    font-size: 1em;
+    outline: none;
+}
+
+.footer-content div form button {
+    padding: 1.5em 2em;
+    cursor: pointer;
+    background-color: var(--yellow-500);
+    border: none;
+    border-radius: 1em;
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    top: 5px;
 }

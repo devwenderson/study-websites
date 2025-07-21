@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nós</title>
+    <title>Sobre</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
+    <header class="container">
+        <a href="index.html">
+            <h1>Food</h1>
+        </a>
+
+        <nav>
+            <ol>
+                <li><a href="index.html">Início</a></li>
+                <li class="active"><a href="menu.html">Menu</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ol>
+        </nav>
+
+        <div class="header__buttons">
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="#">Sing in <i class="fa-solid fa-right-to-bracket"></i> </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Menu</h2>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <h2 class="logo">Food</h2>
+                <p>Vamos encher sua fome com uma maravilhosa comida e um rápido delivery</p>
+                <div class="footer__social-buttons">
+                    <a href="tel:+5555555555555">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h2>Institucional</h2>
+                <ul>
+                    <li><a href="">Por que Food?</a></li>
+                    <li><a href="">Trabalhe conosco</a></li>
+                    <li><a href="">Sobre nós</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Suporte</h2>
+                <ul>
+                    <li><a href="">Centro de suporte</a></li>
+                    <li><a href="">Feedback</a></li>
+                    <li><a href="">Contatos</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Contate-nos</h2>
+                <p>Dúvida ou Feedback? Ficaremos felizes em te ouvir!</p>
+                <form action=".">
+                    <input type="email" placeholder="Digite seu email">
+                    <button type="submit">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pedido.css">
 </body>
 </html>

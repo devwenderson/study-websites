@@ -4,6 +4,7 @@ section.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 3em 0;
 }
 
 .hero__cta h3 {
@@ -40,6 +41,7 @@ section.hero {
     padding: 1em 2em;
     background-color: var(--yellow-500);
     border-radius: 1em;
+    display: inline-block;
 }
 
 .cta__social-buttons {
@@ -62,4 +64,53 @@ section.hero {
 
 .hero__banner img {
     height: 42em;
+}
+
+/* SECTION SERVIÇOS */
+section#servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section#servicos h2 {
+    color: var(--yellow-500);
+    font-size: 1em;
+    flex-basis: var(--container-width);
+    text-align: center;
+}
+
+section#servicos h3 {
+    color: var(--gray-900);
+    font-size: 2em;
+    flex-basis: var(--container-width);
+    text-align: center;
+}
+
+section#servicos .cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20em;
+}
+
+section#servicos .cards div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#servicos .cards div h4 {
+    font-size: 1.5em;
+}
+
+section#servicos .cards div p {
+    text-align: center;
+    font-size: 0.9em;
+    width: 15em;
+    color: var(--gray-200);
+}
+
+section#servicos .cards div img {
+    height: 15em;
 }
