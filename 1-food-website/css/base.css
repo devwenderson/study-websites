@@ -14,10 +14,10 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 90em;
     margin: 0 auto;
 }
 
 section {
-    padding: 5em 0;
+    padding: 3em 0;
 }
